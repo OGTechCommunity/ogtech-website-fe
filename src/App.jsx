@@ -1,12 +1,14 @@
 import { useState } from "react";
 
 import "./App.css";
-import Landing from "./pages/Landing";
+import LandingPage from "./pages/LandingPage";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   return (
     <div>
-      <Landing />
+      {/* <LandingPage /> */}
+      <ComingSoon />
     </div>
   );
 }
