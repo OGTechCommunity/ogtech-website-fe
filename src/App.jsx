@@ -3,13 +3,19 @@ import { useState } from "react";
 import "./App.css";
 import LandingPage from "./pages/LandingPage";
 import ComingSoon from "./pages/ComingSoon";
+import Landing from "./pages/Landing";
+import { Route, Routes } from "react-router";
 
 function App() {
   return (
-    <div>
-      {/* <LandingPage /> */}
-      <ComingSoon />
-    </div>
+    // <div>
+    //   <Landing />
+    //   {/*<LandingPage />*/}
+    //   {/* <ComingSoon /> */}
+    // </div>
+    <Routes>
+      <Route exact path="/ogtech-website-fe" element={<Landing />} />
+    </Routes>
   );
 }
 
