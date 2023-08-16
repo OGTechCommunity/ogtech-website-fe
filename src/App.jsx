@@ -14,7 +14,7 @@ function App() {
     //   {/* <ComingSoon /> */}
     // </div>
     <Routes>
-      <Route exact path="/ogtech-website-fe" element={<Landing />} />
+      <Route exact path="/" element={<Landing />} />
     </Routes>
   );
 }
