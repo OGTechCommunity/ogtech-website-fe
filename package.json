@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ogtechcommunity.github.io/ogtech-website-fe/",
+  "homepage": "https://ogtech.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
